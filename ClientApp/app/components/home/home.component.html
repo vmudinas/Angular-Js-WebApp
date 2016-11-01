@@ -1,0 +1,17 @@
+<h1>Home Page</h1>
+<p>Welcome to Hygiena:</p>
+<kendo-grid [data]="gridView"
+            [pageSize]="pageSize"
+            [skip]="skip"
+            [pageable]="true"
+            [height]="450"
+            (pageChange)="pageChange($event)">
+    <kendo-grid-toolbar>
+        <button (click)="onClick()" class="k-button">Custom action</button>
+    </kendo-grid-toolbar>
+    <kendo-grid-column field="id" [width]="50" title="ID"></kendo-grid-column>
+    <kendo-grid-column field="firstName" title="First Name" [width]="120"></kendo-grid-column>
+    <kendo-grid-column field="lastName" title="Last Name" [width]="120"></kendo-grid-column>
+    <kendo-grid-column field="city" title="City" [width]="120"></kendo-grid-column>
+    <kendo-grid-column field="title" title="Title" [width]="120"></kendo-grid-column>
+</kendo-grid>
