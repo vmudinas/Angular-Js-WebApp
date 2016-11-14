@@ -1,16 +1,9 @@
-using System;
-using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using System.ServiceProcess;
-using System.Diagnostics;
-using Microsoft.AspNetCore.Hosting.Internal;
 
-
-namespace Angular2Application1
+namespace HygienaWeb
 {
     public class Program 
     {

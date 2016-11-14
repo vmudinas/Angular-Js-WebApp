@@ -8,7 +8,7 @@
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>d102eec0-c42b-47cb-a1b0-94283fffb064</ProjectGuid>
-    <RootNamespace>Angular2Application1</RootNamespace>
+    <RootNamespace>HygienaWeb</RootNamespace>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup>

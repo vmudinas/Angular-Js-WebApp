@@ -20,8 +20,10 @@
     "System.ServiceProcess.ServiceController": "4.1.0",
     "Microsoft.AspNetCore.SpaServices": "1.0.0-beta-000019",
     "BundlerMinifier.Core": "2.2.281",
-    "Microsoft.NETCore.App": "1.1.0-preview1-001100-00"
-
+    "Microsoft.NETCore.App": {
+      "version": "1.0.0",
+      "type": "platform"
+    }
   },
 
   "tools": {
@@ -33,7 +35,8 @@
     "netcoreapp1.0": {
       "imports": [
         "dotnet5.6",
-        "portable-net45+win8"
+        "portable-net45+win8",
+        "win10"
       ]
     }
   },
@@ -52,6 +55,7 @@
   "publishOptions": {
     "include": [
       "wwwroot",
+      "node_modules",
       "**/*.cshtml",
       "appsettings.json",
       "web.config"
